@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output (per-asset hashed bundles; the dist/manifest.json + analyzer-bundle.js
+# are produced by `npm run build` and are required for loading as an unpacked extension)
+dist/assets/
+dist/*.js.map
+
+# Test / coverage
+coverage/
+.vitest/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# TypeScript build info
+*.tsbuildinfo
